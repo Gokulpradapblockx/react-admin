@@ -49,10 +49,9 @@ function UserCreate() {
   });
   return (
     <>
-      <div className="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 className="h3 mb-0 text-gray-800">User List</h1>
-      </div>
+      
       <div className="container">
+      <h1>Login</h1>
         <form onSubmit={formik.handleSubmit}>
           <div className="row">
             <div className="col-lg-12">
